@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: leicall-scone-corporate
+    env: static
+    buildCommand: echo "Build complete"
+    staticPublishPath: .
